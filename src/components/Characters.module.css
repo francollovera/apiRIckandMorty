@@ -1,3 +1,21 @@
 .card{
-    min-width: 200px;
+    min-width: 180px;
+    border: 1px solid white;
+    text-align: center;
+    background-color: rgb(49, 116, 79);
+    border-radius: 20px;
+    opacity: 95%;
+}
+
+.titulo{
+    color: white;
+text-transform: uppercase;
+}
+.parrafo{
+    color: white;
+}
+.imagen{
+    width: 280px;
+    margin-top: 20px;
+    border-radius: 20px;
 }

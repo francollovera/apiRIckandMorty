@@ -1,0 +1,15 @@
+.botones{
+    border-radius: 8px;
+    width: 60px;
+    color: white;
+    background-color: rgb(53, 118, 53);
+    text-decoration: none;
+    border: none;
+    padding: 5px;
+    margin-left: 4px;
+}
+.botones:hover{
+    background-color: rgb(71, 152, 71);
+    cursor: pointer;
+
+}

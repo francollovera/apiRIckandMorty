@@ -1,4 +1,5 @@
 import React from 'react'
+import style from './Pagination.module.css';
 
 const Pagination = ({prev,next, onPrevius, onNext}) => {
     const handlePreviues = () =>{
@@ -14,14 +15,14 @@ const Pagination = ({prev,next, onPrevius, onNext}) => {
                 prev ? ( 
             
             <li className='page-item'>
-                <button className='page-link' onClick={handlePreviues}>Prev</button>
+                <button className={style.botones} onClick={handlePreviues}>Prev</button>
             </li>
             ) : null}
             {
                 next ? ( 
             
             <li className='page-item'>
-            <button className='page-link' onClick={handleNext}>Next</button>
+            <button className={style.botones} onClick={handleNext}>Next</button>
             </li>
             ): null}
         </ul>
